@@ -1,0 +1,197 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(2, 90, 141);
+}
+
+body{
+    color: #c8c8c8;
+}
+
+.search input {
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #0e305d;
+}
+
+.search input {
+    outline: none;
+}
+
+.main {
+    display: flex;
+    background-color: #e9e9e9d1;
+    height: 1300px;
+}
+
+.first {
+    margin-top: 15px;
+    margin-left: 150px;
+
+}
+
+.first li {
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.second{
+    display: block;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.but{
+    margin-left: 19px;
+    margin-top: 10px;
+    width: 210px;
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    font-size: 15px;
+    color: rgb(18, 17, 17);
+    background-color: #C1CAD6;
+
+}
+
+.main .first ul li {
+    color: black;
+    cursor: pointer;
+}
+
+.cour{
+    margin-top: 15px;
+    margin-left: 25px;
+
+}
+
+.third {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 700px;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.a {
+    display: flex;
+    width: 800px;
+    height: 80px;
+}
+
+.name {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    width: 400px;
+    height: 80px;
+    color: black;
+}
+
+.online {
+    margin-left: 640px;
+    position: absolute;
+    margin-top: 10px;
+    color: black;
+    font-size: 13px;
+    width: 400px;
+    height: 80px;
+}
+
+.status {
+    margin-top: 10px;
+}
+
+.b {
+    display: flex;
+    width: 800px;
+    height: 120px;
+}
+
+.date {
+    color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.city {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: black
+}
+
+.info {
+    margin-left: 35px;
+}
+
+.kok {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: darkblue;
+    text-align: center;
+}
+
+.gray {
+    color: #b3b3b3;
+    text-align: center;
+}
+
+.druzia {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+    display: block;
+}
+
+.amount {
+    margin-left: 30px;
+}
+
+.ekeu {
+    display: block;
+    text-align: center;
+    margin-left: 13px;
+}
+
+.lev {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.foto {
+    height: 200px;
+    width: 700px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.immg img{
+    margin-left: 18px;
+}
+
+.post {
+    margin-left: 10px;
+    height: 200px;
+    width: 700px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.adam {
+    display: flex;
+}
