@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint3</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="main">
+        <div class="pain">
+            <input type="number" class="inp" id="ip">
+            <form>
+                <select name="valut" id="val">
+                    <option value="1">KZT</option>
+                    <option value="2">USD</option>
+                    <option value="3">EUR</option>
+                </select>
+            </form>
+            <div class="o">
+                <div>KZT</div>
+                <div class="out">
+                    <p id="kzt">-</p>
+                </div>
+            </div>
+            <div class="o">
+                <div>USD</div>
+                <div class="out">
+                    <p id="usd">-</p>
+                </div>
+            </div>
+            <div class="o">
+                <div>EUR</div>
+                <div class="out">
+                    <p id="eur">-</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const out1 = document.getElementById("kzt");
+        const out2 = document.getElementById("usd");
+        const out3 = document.getElementById("eur");
+
+        document.getElementById("val").onclick = (e) => {
+            const val = document.getElementById("val").value;
+            if (val === "1") {
+                out1.textContent = "-";
+                out2.textContent = "-";
+                out3.textContent = "-";
+            } 
+            if (val === "2") {
+                out1.textContent = "-";
+                out2.textContent = "-";
+                out3.textContent = "-";
+            }
+            if (val === "3") {
+                out1.textContent = "-";
+                out2.textContent = "-";
+                out3.textContent = "-";
+            }
+        }
+
+        document.getElementById("ip").onkeyup = (event) => {
+        const val = document.getElementById("val").value;
+        const res = document.getElementById("ip").value;
+        if (val === "1") {
+            var a = (res * 0.002169).toFixed(2); 
+            var b = (res * 0.002035).toFixed(2);
+            out2.textContent = a;
+            out3.textContent = b;
+            out1.textContent = "-";
+        }
+        if (val === "2") {
+            var a = (res * 461.12).toFixed(2); 
+            var b = (res * 0.93214).toFixed(2);
+            out1.textContent = a;
+            out2.textContent = "-";
+            out3.textContent = b;
+        }
+        if (val === "3") {
+            var a = (res * 491.48).toFixed(2); 
+            var b = (res * 1.07).toFixed(2);
+            out1.textContent = a;
+            out2.textContent = b;
+            out3.textContent = "-";
+        }
+        }
+    </script>
+</body>
+</html>
